@@ -41,7 +41,6 @@ getErrorString();
 val(y[8], 0.0);
 val(y[8], 1.0);
 
-
 // Result:
 // true
 // ""
