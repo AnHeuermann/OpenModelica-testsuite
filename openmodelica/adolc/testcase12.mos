@@ -1,5 +1,5 @@
 // name: testADOLC12
-// status: erroneous
+// status: correct
 // teardown_command: rm -f case12* output.log
 
 // test linear system 
@@ -35,7 +35,7 @@ loadString("
 getErrorString();
 
 
-setCommandLineOptions("--adolcTrace --tearingMethod=noTearing");
+setCommandLineOptions("--adolcTrace --generateSymbolicJacobian --tearingMethod=noTearing");
 getErrorString();
 
 simulate(case12, simflags="-jacobian=adolc -lv LOG_JAC_TEST");

@@ -27,7 +27,7 @@ loadString("
 getErrorString();
 
 
-setCommandLineOptions("--adolcTrace --tearingMethod=noTearing");
+setCommandLineOptions("--adolcTrace --generateSymbolicJacobian --tearingMethod=noTearing");
 getErrorString();
 
 simulate(case10, simflags="-jacobian=adolc -lv LOG_JAC_TEST");

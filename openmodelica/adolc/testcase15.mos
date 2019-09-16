@@ -1,6 +1,6 @@
 // name:     adolcTestcase15
 // keywords: adolc for loop sum array
-// status: erroneous
+// status: correct
 //
 //
 
@@ -22,7 +22,7 @@ loadString("
 ");
 getErrorString();
 
-setCommandLineOptions("--adolcTrace");
+setCommandLineOptions("--adolcTrace --generateSymbolicJacobian");
 getErrorString();
 
 simulate(case15, simflags="-jacobian=adolc -lv LOG_JAC_TEST");

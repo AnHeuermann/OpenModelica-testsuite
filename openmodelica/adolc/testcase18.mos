@@ -30,7 +30,7 @@ loadString("
 getErrorString();
 
 
-setCommandLineOptions("--adolcTrace --tearingMethod=noTearing");
+setCommandLineOptions("--adolcTrace --generateSymbolicJacobian --tearingMethod=noTearing");
 getErrorString();
 
 simulate(adolcTest, simflags="-jacobian=adolc -lv LOG_JAC_TEST");

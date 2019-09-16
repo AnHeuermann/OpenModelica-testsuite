@@ -4,7 +4,7 @@
 //
 //
 
-loadModel(Modelica);
+loadModel(Modelica, {"3.2.2"});
 loadString("
 model case16
   annotation(Icon(coordinateSystem(extent={{-100,-100},{100,100}}),graphics={Text(visible=true, fillPattern=FillPattern.Solid, extent={{-100,-150},{100,-110}}, textString=\"%name\")}),Diagram(coordinateSystem(extent={{-148.5,-105},{148.5,105}})));
@@ -18,7 +18,7 @@ end case16;
 ");
 getErrorString();
 
-setCommandLineOptions("--adolcTrace");
+setCommandLineOptions("--adolcTrace --generateSymbolicJacobian");
 getErrorString();
 
 simulate(case16, simflags="-jacobian=adolc -lv LOG_JAC_TEST");

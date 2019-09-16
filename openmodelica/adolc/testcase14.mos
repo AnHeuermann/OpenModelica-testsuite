@@ -20,7 +20,7 @@ loadString("
 ");
 getErrorString();
 
-setCommandLineOptions("--adolcTrace");
+setCommandLineOptions("--adolcTrace --generateSymbolicJacobian");
 getErrorString();
 
 simulate(case14, simflags="-jacobian=adolcSparse -lv LOG_JAC_TEST");

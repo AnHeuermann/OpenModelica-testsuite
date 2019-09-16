@@ -1,6 +1,6 @@
 // name:     testADOLC11
 // keywords: adolc derivatives
-// status: erroneous
+// status: correct
 // teardown_command: rm -rf case1* output.log
 //
 // Testing adolc jacobian driver for a non-linear loop
@@ -26,7 +26,7 @@ loadString("
 ");
 getErrorString();
 
-setCommandLineOptions("--adolcTrace");
+setCommandLineOptions("--adolcTrace --generateSymbolicJacobian");
 getErrorString();
 
 simulate(case11, simflags="-jacobian=adolc -lv LOG_JAC_TEST");
