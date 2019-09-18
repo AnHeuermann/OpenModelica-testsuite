@@ -1,5 +1,5 @@
 // name: testADOLC6
-// status: erroneous
+// status: incorrect
 // teardown_command: rm -f adolcTest* output.log
 
 loadString("

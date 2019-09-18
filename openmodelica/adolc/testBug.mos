@@ -1,6 +1,6 @@
 // name:     adolcTestcase13
 // keywords: adolc integer parameters
-// status: correct
+// status: incorrect
 // teardown_command: rm -rf case2* output.log
 //
 //

@@ -1,5 +1,5 @@
 // name: testADOLC18
-// status: correct
+// status: incorrect
 // teardown_command: rm -f adolcTest* output.log
 
 // function with more then one output

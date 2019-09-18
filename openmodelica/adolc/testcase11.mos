@@ -1,6 +1,6 @@
 // name:     testADOLC11
 // keywords: adolc derivatives
-// status: correct
+// status: incorrect
 // teardown_command: rm -rf case1* output.log
 //
 // Testing adolc jacobian driver for a non-linear loop

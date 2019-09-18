@@ -1,5 +1,5 @@
 // name: testADOLC12
-// status: correct
+// status: incorrect
 // teardown_command: rm -f case12* output.log
 
 // test linear system 

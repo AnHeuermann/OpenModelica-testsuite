@@ -6,6 +6,7 @@ testcase1.mos \
 testcase2.mos \
 testcase3.mos \
 testcase4.mos \
+testcase4-2.mos \
 testcase5.mos \
 testcase6.mos \
 testcase7.mos \
